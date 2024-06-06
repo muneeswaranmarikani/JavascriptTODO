@@ -18,8 +18,7 @@ function addElement() {
     const checkbox = document.createElement('input');
     checkbox.className = 'intBorder';
     checkbox.type = 'checkbox';
-    checkbox.id = 'checkbox_' + Math.random().toString(36).substr(2, 9);
-
+    
     const checkboxLabel = document.createElement('label');
     checkboxLabel.htmlFor = checkbox.id;
 
